@@ -1,0 +1,11 @@
+- name: apply role  1
+  gather_facts: False
+  hosts: all
+  roles:
+   - { role: role1, tags: role1}
+
+- name: apply role  2
+  gather_facts: False
+  hosts: all
+  roles:
+   - { role: role2, tags: role2}

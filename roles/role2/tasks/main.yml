@@ -1,0 +1,17 @@
+- name: print role2's task1
+  debug: msg="this is role2's task1"
+  tags: zc
+
+- name: print role2's task2
+  debug: msg="this is role2's task2"
+  tags: role2_task2
+
+- name: notify check
+  copy: 
+    src: /etc/hosts
+    dest: /root/ansible_mariadb/test.txt
+  tags: file 
+  delegate_to: zc-con-1
+  run_once: True
+  notify:
+    - "zcAction"

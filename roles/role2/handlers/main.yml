@@ -1,0 +1,6 @@
+- name: zcAction
+  file:
+   path: /root/ansible_mariadb/test11
+   state: directory
+   recurse: yes
+ 

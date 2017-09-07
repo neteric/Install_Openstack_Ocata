@@ -1,0 +1,2 @@
+- name: print role1's task
+  debug: msg="this is the role1's task"
