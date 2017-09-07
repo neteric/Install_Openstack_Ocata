@@ -1,7 +1,0 @@
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-172.16.50.45 zc-con-1
-172.16.50.13 zc-con-2
-172.16.50.31 zc-con-3
-172.16.50.32 zc-con-4
-
